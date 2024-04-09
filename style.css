@@ -2,15 +2,26 @@ canvas {
   border: 1px solid #000;
   cursor: crosshair;
 }
-#reset {
-  margin-top: 10px;
-  margin-left: 5px;
-  float: left;
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.tools{
+  width: 100%;
+ 
+}
+#reset{
+  height: 50px;
+  width: 100px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .container-color{
-  width: 50%;
-border: 1px solid black;
-display: flex;
+ 
+  display: flex;
 }
 .color-square1{
   width: 50px;

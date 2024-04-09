@@ -11,12 +11,16 @@
 
   <body>
     <div class="container">
-      <input type="button" id="reset" value="reset" />
       <canvas id="art" width="800" height="400"> </canvas>
-      <div class="container-color">
-        <div class="color-square1"></div>
-        <div class="color-square2"></div>
-        <div class="color-square3"></div>
+      <div class="tools">
+        <input type="button" id="reset" value="reset" />
+        <div class="container-color">
+          <div class="color-square1"></div>
+          <div class="color-square2"></div>
+          <div class="color-square3"></div>
+        </div>
+        <input type="range" min="1" value="1" max="10" id="rangeInput" />
+        <label for="rangeInput" id="labelRange" class="">1</label>
       </div>
     </div>
 

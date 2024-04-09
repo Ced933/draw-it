@@ -1,0 +1,32 @@
+canvas {
+  border: 1px solid #000;
+  cursor: crosshair;
+}
+#reset {
+  margin-top: 10px;
+  margin-left: 5px;
+  float: left;
+}
+.container-color{
+  width: 50%;
+border: 1px solid black;
+display: flex;
+}
+.color-square1{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  cursor: pointer;
+}
+.color-square2{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: green;
+}
+.color-square3{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: red;
+}
